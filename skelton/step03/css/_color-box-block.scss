@@ -1,0 +1,27 @@
+@import './valiables';
+
+.color-box-block {
+  padding: 16px;
+  background: #efefef;
+  display: flex;
+  flex-wrap: wrap;
+  &__box {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 4px;
+    margin: 16px;
+    &--red {
+      @extend .color-box-block__box;
+      background: $red;
+    }
+    &--blue {
+      @extend .color-box-block__box;
+      background: $blue;
+    }
+    &--green {
+      @extend .color-box-block__box;
+      background: $green;
+    }
+  }
+}

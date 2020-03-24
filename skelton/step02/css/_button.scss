@@ -1,0 +1,14 @@
+@import './valiables';
+.button {
+  border: none;
+  background: $blue;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin: 16px;
+  transition: 0.2s ease;
+  &:hover {
+    opacity: 0.7;
+  }
+}
