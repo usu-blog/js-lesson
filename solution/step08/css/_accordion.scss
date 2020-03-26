@@ -1,0 +1,19 @@
+@import './valiables';
+
+.accordion {
+  margin: 0;
+  padding: 0;
+  background: lighten($blue, 30%);
+  li {
+    list-style: none;
+  }
+  &__title {
+    cursor: pointer;
+    padding: 16px;
+  }
+  &__content {
+    display: none;
+    padding: 16px;
+    background: lighten($blue, 40%);
+  }
+}
