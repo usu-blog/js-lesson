@@ -1,8 +1,8 @@
 var btn = document.getElementById('hello-world-button')
 
-btn.addEventListener('click', function() {
+btn.addEventListener('click', function () {
   // percentは降水確率
-  var percent = 60
+  var percent = 10
   // weatherに天気の結果が入る
   var weather = WeatherCheck(percent)
   // alertで画面に表示
@@ -18,6 +18,7 @@ btn.addEventListener('click', function() {
 function WeatherCheck(percent) {
   if (percent < 20) {
     return '晴れ'
+  } else if (xxxxxx) {
   } else {
     return '雨'
   }

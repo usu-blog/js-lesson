@@ -3,11 +3,15 @@ var btn = document.getElementById('create-box-action')
 // ボックスが入るブロック
 var block = document.getElementById('color-box-block')
 
-btn.addEventListener('click', function() {
+btn.addEventListener('click', function () {
   // ループ分で自動化したい
+  const arr = ['red', 'blue', 'green']
+  // for
   createColorBox('red')
   createColorBox('blue')
   createColorBox('green')
+
+  // forEach
   createColorBox('red')
   createColorBox('blue')
   createColorBox('green')
